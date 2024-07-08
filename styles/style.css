@@ -1,0 +1,103 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+/* font-family: "Merriweather", serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+/*   font-family: "Inter", sans-serif; */
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*------- BANNER STYLE-------*/
+
+.banner-container{
+    width: 1320px;
+    height: 600px;  
+    margin: 20px auto 120px;
+    /* border: 2px solid red; */
+    display: flex;  
+    justify-content: center; 
+    align-items: center; 
+    background-image: url("../images/Banner\ Image.png") ,linear-gradient(180.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%);;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px;
+    background-blend-mode: overlay;
+}
+.banner-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    /* border: 2px solid red; */
+}
+.banner-text h4 {
+    color: rgb(255, 255, 255);
+    font-family: Merriweather;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.banner-text h2{
+    color: rgb(255, 255, 255);
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+/*------- OFF SECTION STYLE-------*/
+
+.off-container{
+    width: 802.9px;
+    height: 500px;
+    margin: 0px auto ;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+   
+}
+.off-container h1{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+    line-height: 107px;
+    letter-spacing: 0%;
+    margin-bottom: 48px;
+}
+.off-container p{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    margin-bottom: 16px;
+}
+.off-container h5{
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0%;
+    margin-bottom: 48px;
+}
+.off-container img{
+    width: 802.9px;
+    height: 500px;
+}
+
+/*------- BANNER STYLE-------*/
+  
